@@ -54,6 +54,13 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 ```
 // Your solution here!
 
+4. let sentence = 'Hello world!';
+3. if (sentence.includes('Hello')) {
+2. console.log('Sentence DOES contain the word "Hello"');
+5. } else {
+1. console.log('Sentence DOES NOT contain the word "Hello"');
+6. }
+
 ```
 
 ## Question 2: Get the specified item in the nested array
@@ -66,6 +73,12 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+
+2. const array = [[1, [2, 3]]];
+1. const firstIndex = array[0][0];
+4. const secondIndex = array[0][1][0];
+5. const thirdIndex = array[0][1][1];
+3. console.log(array[firstIndex][secondIndex][thirdIndex])
 
 ```
 
@@ -80,6 +93,13 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+
+2. let currentNum = 10;
+4. let min = 5;
+1. while (currentNum >= min) {
+3. console.log(currentNum);
+5. currentNum-- ;
+6. }
 
 ```
 
@@ -96,6 +116,14 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 ```
 // Your solution here!
 
+4. const encodedMessage = 'gnidliub gruobuaF eht rednu deirub si erusaert ehT';
+3. const letterArray = encodedMessage.split('');
+1. const reversedArray = letterArray.reverse();
+7. const reversedString = reversedArray.join('');
+5. if (reversedString.includes('treasure')) {
+2. console.log('Your message:', reversedString)
+6. }
+
 ```
 
 ## Question 5: Add all the numbers from 10 to 0
@@ -110,6 +138,14 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+
+6. let count = 10;
+3. let total = 0;
+2. while (count > 0) {
+1. total = total + count;
+4. count = count - 1;
+5. console.log('The total is:', total)
+7. }
 
 ```
 
@@ -127,5 +163,15 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+
+7. let numberToSearchFor = 5;
+2. let includesNumber;
+8. let array = [1, 3, 7, 4, 5, 2, 1];
+4. for (let i = 0; i < array.length; i++) {
+5. let item = array[i];
+6. if (item === numberToSearchFor) {
+3. console.log('Array includes the number!')
+1. }
+9. }
 
 ```

@@ -15,6 +15,31 @@ function exercise11() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+    // find out if row is even or odd. 
+    // First loop (Rows)
+    // index of Characters to know if even or odd.
+    // if i % 2 === 0 (even) if not odd.    \n  
+    // if % 8 ===0 new line
+
+
+    let char = "";
+    for (let i = 0; i <= 8; i++) {
+      for (let x = 0; x < 8; x++) {
+        if ((x + i) % 2 == 0)
+          char += "#";
+        else
+          char += "_";
+      }
+      char += "\n";
+    }
+    
+    console.log(char);
+    
+
+
+
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

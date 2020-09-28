@@ -20,6 +20,20 @@ function exercise13() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+  let myFib = [0,1]
+  for (let i = 0; i < 50; i++){
+  let firstNum = myFib[myFib.length - 2];
+  let secondNum = myArr[myFib.length - 1];
+  let nextNum = firstNum + secondNum;
+  myFib.push(nextNum)
+  
+  }
+  console.log(myFib[50]);
+
+
+
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
